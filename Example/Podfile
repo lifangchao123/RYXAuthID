@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'RYXAuthID_Example' do
+  pod 'RYXAuthID', :path => '../'
+
+  target 'RYXAuthID_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
