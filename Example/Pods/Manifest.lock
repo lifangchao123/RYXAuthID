@@ -1,0 +1,16 @@
+PODS:
+  - RYXAuthID (0.1.0)
+
+DEPENDENCIES:
+  - RYXAuthID (from `../`)
+
+EXTERNAL SOURCES:
+  RYXAuthID:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RYXAuthID: 82453ea9bc32a6021af742f4f61f746acb041bcc
+
+PODFILE CHECKSUM: 0e19dbf208f9c8341be67da61ed9751adad694eb
+
+COCOAPODS: 1.7.5

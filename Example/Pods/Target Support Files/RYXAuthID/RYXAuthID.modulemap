@@ -1,0 +1,6 @@
+framework module RYXAuthID {
+  umbrella header "RYXAuthID-umbrella.h"
+
+  export *
+  module * { export * }
+}

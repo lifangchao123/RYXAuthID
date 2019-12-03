@@ -41,7 +41,7 @@
 		1CADAA40266C25B93730FA82 /* Pods-RYXAuthID_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYXAuthID_Tests.debug.xcconfig"; path = "Target Support Files/Pods-RYXAuthID_Tests/Pods-RYXAuthID_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3AEB606B96361A5CE9B29E8B /* Pods-RYXAuthID_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYXAuthID_Tests.release.xcconfig"; path = "Target Support Files/Pods-RYXAuthID_Tests/Pods-RYXAuthID_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		469D45B32D4B1A821A9C5992 /* Pods-RYXAuthID_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYXAuthID_Example.release.xcconfig"; path = "Target Support Files/Pods-RYXAuthID_Example/Pods-RYXAuthID_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4AB84313570CF3C9D0C92643 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4AB84313570CF3C9D0C92643 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* RYXAuthID_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RYXAuthID_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,9 +64,9 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		970B7A78EA05437D6E1497EA /* Pods_RYXAuthID_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RYXAuthID_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A47CEE9FC039E970D095F286 /* RYXAuthID.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RYXAuthID.podspec; path = ../RYXAuthID.podspec; sourceTree = "<group>"; };
+		A47CEE9FC039E970D095F286 /* RYXAuthID.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RYXAuthID.podspec; path = ../RYXAuthID.podspec; sourceTree = "<group>"; };
 		B77895CFA9E24DC1042DD9F1 /* Pods_RYXAuthID_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RYXAuthID_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA09636E613DE3690DE72B79 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BA09636E613DE3690DE72B79 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				1CADAA40266C25B93730FA82 /* Pods-RYXAuthID_Tests.debug.xcconfig */,
 				3AEB606B96361A5CE9B29E8B /* Pods-RYXAuthID_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -244,7 +243,7 @@
 		6003F582195388D10070C39A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = NIL;
+				CLASSPREFIX = "";
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = lifangchao123;
 				TargetAttributes = {
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
