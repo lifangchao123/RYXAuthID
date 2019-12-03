@@ -17,6 +17,7 @@
 		BB072AC623962EBD00CD6953 /* CFAuthID.m in Sources */ = {isa = PBXBuildFile; fileRef = BB072AC223962EBD00CD6953 /* CFAuthID.m */; };
 		BB072AC723962EBD00CD6953 /* CFAuthID.h in Headers */ = {isa = PBXBuildFile; fileRef = BB072AC323962EBD00CD6953 /* CFAuthID.h */; };
 		BB072AC823962EBD00CD6953 /* CFToolManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BB072AC423962EBD00CD6953 /* CFToolManager.h */; };
+		BB072ACA239631F700CD6953 /* CommonHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = BB072AC9239631F700CD6953 /* CommonHeaders.h */; };
 		C4C206B95167DDC6AA860FA60056C45A /* Pods-RYXAuthID_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF15B2B4DC825393AA836CF9D9ECF48 /* Pods-RYXAuthID_Example-dummy.m */; };
 		CE4FD38EB265620929E8E1942C70C7B1 /* RYXAuthID-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AF8E5B054E7F4C517B0DCE67615384 /* RYXAuthID-dummy.m */; };
 		DAAB3C6B87F2FC71275D88433173A5B1 /* RYXAuthID-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 897559027729B89CF93EC2E57EAD6171 /* RYXAuthID-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -65,7 +66,8 @@
 		BB072AC223962EBD00CD6953 /* CFAuthID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFAuthID.m; path = RYXAuthID/Classes/CFAuthID.m; sourceTree = "<group>"; };
 		BB072AC323962EBD00CD6953 /* CFAuthID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFAuthID.h; path = RYXAuthID/Classes/CFAuthID.h; sourceTree = "<group>"; };
 		BB072AC423962EBD00CD6953 /* CFToolManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFToolManager.h; path = RYXAuthID/Classes/CFToolManager.h; sourceTree = "<group>"; };
-		C5A9DACA4EDCDD680E1BA225277B015E /* RYXAuthID.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = RYXAuthID.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB072AC9239631F700CD6953 /* CommonHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonHeaders.h; path = RYXAuthID/Classes/CommonHeaders.h; sourceTree = "<group>"; };
+		C5A9DACA4EDCDD680E1BA225277B015E /* RYXAuthID.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = RYXAuthID.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		C755FC17CD446BC07EFAD08D83DAA561 /* RYXAuthID-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RYXAuthID-prefix.pch"; sourceTree = "<group>"; };
 		E12BD70AA163D5470662F27009E6D360 /* Pods-RYXAuthID_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RYXAuthID_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E1CDD273703D8E971F814FC99BF57151 /* Pods-RYXAuthID_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RYXAuthID_Example-Info.plist"; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 		989631D40855BA533D2289C4901EFEA6 /* RYXAuthID */ = {
 			isa = PBXGroup;
 			children = (
+				BB072AC9239631F700CD6953 /* CommonHeaders.h */,
 				BB072AC323962EBD00CD6953 /* CFAuthID.h */,
 				BB072AC223962EBD00CD6953 /* CFAuthID.m */,
 				BB072AC423962EBD00CD6953 /* CFToolManager.h */,
@@ -239,6 +242,7 @@
 			files = (
 				BB072AC723962EBD00CD6953 /* CFAuthID.h in Headers */,
 				BB072AC823962EBD00CD6953 /* CFToolManager.h in Headers */,
+				BB072ACA239631F700CD6953 /* CommonHeaders.h in Headers */,
 				B3BD759E965353F7B5930E1E1EE272FD /* Pods-RYXAuthID_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
